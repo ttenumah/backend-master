@@ -2,7 +2,7 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "strapi-hook-bookshelf",
+      "connector": "mongoose",
       "settings": {
         "uri": "${process.env.mongodb+srv://ttenumah:Ganstar..123@cluster0.dey6vxv.mongodb.net/?retryWrites=true&w=majority"
       },
