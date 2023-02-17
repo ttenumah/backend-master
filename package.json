@@ -50,6 +50,6 @@
   "license": "MIT",
   "customs": {
     "uuid": "a45046ad-52e3-426c-a7aa-25c5de132bfe"
-  },
-  "node": "14.20.1"
+  }
+  
 }
