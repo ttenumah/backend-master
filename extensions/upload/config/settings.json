@@ -1,0 +1,11 @@
+{
+    "provider": "aws-s3",
+    "providerOptions": {
+      "accessKeyId": "AKIAQ53SVJC6LWUFF74V",
+      "secretAccessKey": "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",
+      "region": "us-west-2",
+      "params": {
+        "Bucket": "tosanres"
+      }
+    }
+  }
