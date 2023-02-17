@@ -4,14 +4,12 @@
   "version": "0.1.0",
   "description": "A Strapi application",
   "scripts": {
-"start": "serve -s build",
-"heroku-postbuild": "npm run build",
-"develop": "strapi develop",
     "start": "strapi start",
+    "heroku-postbuild": "npm run build",
+    "develop": "strapi develop",
     "build": "strapi build",
     "strapi": "strapi",
-    "lint": "eslint .",
-    "start": "node index.html"
+    "lint": "eslint ."
   },
   "devDependencies": {
     "babel-eslint": "^10.0.0",
@@ -27,10 +25,11 @@
     "pg": "^8.9.0",
     "pg-connection-string": "^2.5.0",
     "sqlite3": "^5.0.0",
-    "strapi": "3.0.0-beta.14",
+    "strapi": "3.0.0-alpha.14",
     "strapi-admin": "3.0.0-beta.14",
     "strapi-hook-bookshelf": "3.0.0-beta.14",
     "strapi-hook-knex": "^3.0.0-beta.14",
+    "strapi-hook-mongoose": "3.0.0-alpha.14",
     "strapi-plugin-content-manager": "3.0.0-beta.14",
     "strapi-plugin-content-type-builder": "3.0.0-beta.14",
     "strapi-plugin-email": "3.0.0-beta.14",
@@ -54,5 +53,4 @@
   "customs": {
     "uuid": "a45046ad-52e3-426c-a7aa-25c5de132bfe"
   }
-  
 }
