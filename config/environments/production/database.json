@@ -4,7 +4,7 @@
     "default": {
       "connector": "strapi-hook-bookshelf",
       "settings": {
-        "uri": "${process.env.mysql://ttenumah:AVNS_zTN8ZJP8R8jLGAf6Qhq@restaurant-do-user-13263090-0.b.db.ondigitalocean.com:25060/defaultdb?ssl-mode=REQUIRED}"
+        "uri": "${process.env.mongodb+srv://ttenumah:Ganstar..123@cluster0.dey6vxv.mongodb.net/?retryWrites=true&w=majority"
       },
       "options": {
         "ssl": true
