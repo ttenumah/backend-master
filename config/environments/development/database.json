@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-bookshelf",
+      "settings": {
+        "client": "mysql",
+        "database": "restaurant2",
+        "host": "restaurant-do-user-13263090-0.b.db.ondigitalocean.com",
+        "srv": false,
+        "port": 25060,
+        "username": "ttenumah",
+        "password": "AVNS_zTN8ZJP8R8jLGAf6Qhq"
+      },
+      "options": {
+        "authenticationDatabase": ""
+      }
+    }
+  }
+}
